@@ -1,6 +1,6 @@
 # Lince
 
-I made Lince out of boredom. It’s just a basic memory scanner—you find a value in a game or program and change it. Layout’s pretty standard: scanner on the right, results on the left, and a list at the bottom to keep track of things.
+I made Lince(Lince is not cheat engine) out of boredom. It’s just a basic memory scanner—you find a value in a game or program and change it. Layout’s pretty standard: scanner on the right, results on the left, and a list at the bottom to keep track of things.
 
 ## How to actually get it running
 
