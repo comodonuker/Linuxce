@@ -263,9 +263,6 @@ void DrawEditPopups() {
                 try {
                     if (g_editState.field == EditField::Value) {
                         if (addr.type == ValueType::String) {
-                            // Write each character byte by byte, then null terminate.
-                            // This ensures shorter strings don't leave stale bytes
-                            // from the previous value sitting in memory.
                             size_t len = strlen(g_editState.buffer);
                             for (size_t j = 0; j < len; j++) {
                                 g_scanner.writeMemory<uint8_t>(addr.address + j, (uint8_t)g_editState.buffer[j]);
